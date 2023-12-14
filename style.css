@@ -1,0 +1,37 @@
+button:hover{
+    background-color: aqua;
+}
+*{
+    font-size: 40px;
+}
+h1{
+    display: none;
+}
+input:checked + h1{
+    color: red;
+    display: block;
+}
+
+/* p::first-line{
+    color: orangered;
+}
+p::first-letter{
+    color: palevioletred;
+}
+
+p::before{
+    content: url('download.jpeg');
+}
+p::after{
+    content: url('download.jpeg');
+} */
+div{
+    /* backgro d-color: aqua;
+    height: 50vh;
+    width: 50vw; */
+    font-size: 40px;
+}
+p{
+   font-size: 1em; 
+}
+/* in the scene of em we are giving the font size related to parent element and comes to the rem we are giving the font size in related to root element <html> */
